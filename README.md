@@ -22,8 +22,12 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 
 ### Contenido
 
-1. programa_1.cs
-    * 
+1. program_1
+	* Program.cs
+		* Comentarios
+		* Main
+		* Variables
+		* Escritura en consola y lectura de teclado
 
 [Repositorio](https://github.com/diegoAlex24/C-Sharp-examples).
 
