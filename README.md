@@ -28,6 +28,12 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 		* Main
 		* Variables
 		* Escritura en consola y lectura de teclado
+		* Clases y objetos
+	* Clase.cs
+		* Atributos
+		* Constructor
+		* Metodos
+		* Getters y setters
 
 [Repositorio](https://github.com/diegoAlex24/C-Sharp-examples).
 

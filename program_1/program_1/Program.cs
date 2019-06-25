@@ -45,6 +45,15 @@ namespace program_1 {
             // Imprime una variable con cadena
             Console.WriteLine("Hola " + nombre);
 
+            /* Clases y objetos */
+            // Se crea un objeto tambien llamada instancia de la clase Clase ubicado en Clase.cs
+            Clase objeto = new Clase();
+            // Inicializa el setter
+            objeto.setNombre(nombre);
+            // Llamada del objeto a su metodo.
+            objeto.Saludo();
+
+
             // Espera una tecla
             Console.ReadKey();
         }
