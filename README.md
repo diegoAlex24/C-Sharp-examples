@@ -22,11 +22,12 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 
 ### Contenido
 
-1. program_1
+1. program_1 (Consola)
 	* Program.cs
 		* Comentarios
 		* Main
 		* Variables
+		* Máximos valores númericos
 		* Escritura en consola y lectura de teclado
 		* Clases y objetos
 	* Clase.cs
@@ -34,6 +35,12 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 		* Constructor
 		* Metodos
 		* Getters y setters
+2. program_2 (Interfaz gráfica)
+	* FormPrincipal
+		* Definicion de ventana
+		* Titulo
+		* Label
+		* Button
 
 [Repositorio](https://github.com/diegoAlex24/C-Sharp-examples).
 
