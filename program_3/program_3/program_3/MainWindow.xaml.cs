@@ -24,5 +24,10 @@ namespace program_3 {
             // El diseño se edita con el XAML
             InitializeComponent();
         }
+
+        private void button_example_Click(object sender, RoutedEventArgs e){
+            // Se abre una ventana de mensaje
+            MessageBox.Show("Aviso al dar clic");
+        }
     }
 }

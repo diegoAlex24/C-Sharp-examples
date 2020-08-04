@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="600">
     <Grid>
-        <!--Se crea un boton -->
-        <Button x:Name="button_example" Content="Botón" HorizontalAlignment="Left" Margin="76, 96, 0, 0" VerticalAlignment="Top" Width="154" Height="73"></Button>
+        <!--Se crea un botón y para usar su funcionalidad le damos doble clic en el botón -->
+        <Button x:Name="button_example" Content="Botón" HorizontalAlignment="Left" Margin="76, 96, 0, 0" VerticalAlignment="Top" Width="154" Height="73" FontSize="20" Click="button_example_Click"></Button>
     </Grid>
 </Window>

@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 // Para todos los nombres identificadores no usar palabras reservadas ("if, else, class, int, long, double, etc") 
 // Proyecto
+// El namespace puede usarse como una libreria en otro proyecto con using
 namespace program_1 {
     // Clase
     class Program { // Orientado a objetos
@@ -33,6 +34,7 @@ namespace program_1 {
             char d = 'D';
             // Cadena
             string e = "Hola gente";
+            String cadena = "Hola C#";
             // Booleano
             bool voto = true;
 
@@ -50,12 +52,12 @@ namespace program_1 {
             Console.WriteLine(c);
             Console.WriteLine(maximoLong);
             Console.WriteLine(maximoDecimal);
-
+            
 
             /* Escritura en consola y lectura de teclado */
             // Escribe en consola sin salto de linea
             Console.Write("Hola");
-            // Se intoduce un salto de linea
+            // Se introduce un salto de linea
             Console.Write("\n");
 
             Console.WriteLine("Escribe un número");
@@ -83,6 +85,24 @@ namespace program_1 {
             // Llamada del objeto a su metodo.
             objeto.Saludo();
 
+            /* Ciclo For */
+            // Una forma de recorrer un arreglo de variables del mismo tipo es usar un ciclo
+            // El ciclo for primero declara una variable que itera sobre el arreglo los cuales todos comienzan desde el 0
+            // Despues se tiene una condición la cual al momento que no se cumpla dejara de ejcutarse el codigo entre los corchetes
+            // Por ultimo se actualiza variable inicial para que se mueva por el arreglo y cambie el válor.
+            for(int i = 0; i < args.Length; i++){
+                // El arreglo args contiene la propiedad Length la cual almacena el tamaño del arreglo.
+                // al poner una variable con ++ es igual a hacer incrementos en uno
+                Console.WriteLine("El contenido del arreglo args es {0} = {1}", i, args[i]);
+                // Otra forma de poner variables en una cadena es por medio de llaves iniciando del 0 y pasando la variable a tomar como parametro
+                // Para acceder al contenido de una variable utilizamos los corchetes y el número de elemento.
+            }
+
+            /* Obtener argumentos de la aplicación */
+            // Declaramos un arreglo de cadenas para almacenar los argumentos de la línea de comandos.
+            string[] argumentos = Environment.GetCommandLineArgs();
+            // La siguiente línea usara la función join para unir todos los agumentos de la línea de comandos uniendolos por el primer argumentos que en este caso es " - " resultando una cadena
+            Console.WriteLine(string.Join(" - ", argumentos));
 
 
 

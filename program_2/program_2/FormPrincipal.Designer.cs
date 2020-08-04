@@ -36,17 +36,19 @@
             // 
             this.labelHello.AutoSize = true;
             this.labelHello.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHello.Location = new System.Drawing.Point(55, 76);
+            this.labelHello.Location = new System.Drawing.Point(73, 94);
+            this.labelHello.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelHello.Name = "labelHello";
-            this.labelHello.Size = new System.Drawing.Size(177, 29);
+            this.labelHello.Size = new System.Drawing.Size(220, 36);
             this.labelHello.TabIndex = 0;
             this.labelHello.Text = "Hello Visual C#";
             // 
             // buttonClick
             // 
-            this.buttonClick.Location = new System.Drawing.Point(90, 140);
+            this.buttonClick.Location = new System.Drawing.Point(110, 173);
+            this.buttonClick.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonClick.Name = "buttonClick";
-            this.buttonClick.Size = new System.Drawing.Size(102, 33);
+            this.buttonClick.Size = new System.Drawing.Size(144, 41);
             this.buttonClick.TabIndex = 1;
             this.buttonClick.Text = "Haz Click";
             this.buttonClick.UseVisualStyleBackColor = true;
@@ -54,12 +56,13 @@
             // 
             // FormPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(379, 321);
             this.Controls.Add(this.buttonClick);
             this.Controls.Add(this.labelHello);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormPrincipal";
             this.Text = "Interfaz principal";
             this.ResumeLayout(false);

@@ -30,6 +30,8 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 		* Máximos valores númericos
 		* Escritura en consola y lectura de teclado
 		* Clases y objetos
+		* Ciclo For
+		* Obtener argumentos de la aplicación
 	* Clase.cs
 		* Atributos
 		* Constructor
@@ -44,6 +46,7 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 3. program_3 (Windows Presentations Foundations)
 	* MainWindow.xaml
 		* Button
+			* Message Box
 
 [Repositorio](https://github.com/diegoAlex24/C-Sharp-examples).
 
