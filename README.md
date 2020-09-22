@@ -29,6 +29,7 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 		* Variables
 		* Máximos valores númericos
 		* Escritura en consola y lectura de teclado
+		* Operaciones númericas
 		* Clases y objetos
 		* Ciclo For
 		* Obtener argumentos de la aplicación

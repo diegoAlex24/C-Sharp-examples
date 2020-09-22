@@ -76,7 +76,13 @@ namespace program_1 {
             // Imprime una variable con cadena
             Console.WriteLine("Hola " + nombre);
 
-            
+            /* Operaciones númericas */
+            Console.WriteLine("Suma = {0}", a + a);
+            Console.WriteLine("Resta = {0}", a - a);
+            Console.WriteLine("Multiplicación = {0}", a * a);
+            Console.WriteLine("División = {0}", a / a);
+            Console.WriteLine("Resto = {0}", a % a);
+
             /* Clases y objetos */
             // Se crea un objeto tambien llamada instancia de la clase Clase ubicado en Clase.cs
             Clase objeto = new Clase();
