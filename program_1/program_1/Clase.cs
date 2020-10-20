@@ -19,16 +19,16 @@ namespace program_1 {
         // Metodo sin parametros, ni regresa nada, se ejecuta desde llamada del objeto.
         public void Saludo(){
             // Se llama a una funcion de la propia clase, al usar this se refiere al objeto que la llama
-            Console.WriteLine("Que tal " + this.getNombre());
+            Console.WriteLine("Que tal " + this.GetNombre());
         }
 
         // Setter para definir un atributo de la clase.
-        public void setNombre(String name){
+        public void SetNombre(String name){
             nombre = name;
         }
 
         // Getter devuelve el valor de un atributo de la clase.
-        public String getNombre(){
+        public String GetNombre(){
             return nombre;
         }
     }

@@ -87,7 +87,7 @@ namespace program_1 {
             // Se crea un objeto tambien llamada instancia de la clase Clase ubicado en Clase.cs
             Clase objeto = new Clase();
             // Inicializa el setter
-            objeto.setNombre(nombre);
+            objeto.SetNombre(nombre);
             // Llamada del objeto a su metodo.
             objeto.Saludo();
 
