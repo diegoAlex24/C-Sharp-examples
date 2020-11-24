@@ -10,16 +10,20 @@ namespace program_1 {
         // Atributos
         // Se crea un atributo privado lo cual significa que no puede ser afectado o cambiado fuera de la clase.
         private String nombre;
+        private int edad;
 
-        // Constructor se ejecuta automaticamente al crear un nuevo objeto de la clase.
-        public Clase() {
+        // Constructor se ejecuta automaticamente al crear un nuevo objeto de la clase y puede o no puede llevar parametros.
+        public Clase(int age) {
             Console.WriteLine("Este es el constructor");
+            // This para acceder a la propiedad del objeto creado.
+            this.edad = age;
         }
 
         // Metodo sin parametros, ni regresa nada, se ejecuta desde llamada del objeto.
         public void Saludo(){
+            /** This **/
             // Se llama a una funcion de la propia clase, al usar this se refiere al objeto que la llama
-            Console.WriteLine("Que tal " + this.GetNombre());
+            Console.WriteLine("Que tal " + this.GetNombre() + " tienes " + this.edad);
         }
 
         // Setter para definir un atributo de la clase.

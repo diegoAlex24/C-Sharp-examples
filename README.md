@@ -37,6 +37,7 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 		* Atributos
 		* Constructor
 		* Metodos
+			* this
 		* Getters y setters
 2. program_2 (Interfaz gráfica)
 	* FormPrincipal
