@@ -75,6 +75,8 @@ namespace program_1 {
             string nombre = Console.ReadLine();
             // Imprime una variable con cadena
             Console.WriteLine("Hola " + nombre);
+            // Otro formato de variable
+            Console.WriteLine("{0} \n {1}", "Que tal tu día", nombre);
 
             /* Operaciones númericas */
             Console.WriteLine("Suma = {0}", a + a);
