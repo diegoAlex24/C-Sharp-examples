@@ -45,6 +45,8 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 		* Titulo
 		* Label
 		* Button
+			* Propiedades
+			* MessajeBox
 3. program_3 (Windows Presentations Foundations)
 	* MainWindow.xaml
 		* Button
