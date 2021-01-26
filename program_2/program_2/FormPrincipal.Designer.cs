@@ -30,6 +30,7 @@
         {
             this.labelHello = new System.Windows.Forms.Label();
             this.buttonClick = new System.Windows.Forms.Button();
+            this.buttonClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelHello
@@ -46,7 +47,7 @@
             // buttonClick
             // 
             this.buttonClick.Location = new System.Drawing.Point(110, 173);
-            this.buttonClick.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonClick.Margin = new System.Windows.Forms.Padding(4);
             this.buttonClick.Name = "buttonClick";
             this.buttonClick.Size = new System.Drawing.Size(144, 41);
             this.buttonClick.TabIndex = 1;
@@ -54,15 +55,26 @@
             this.buttonClick.UseVisualStyleBackColor = true;
             this.buttonClick.Click += new System.EventHandler(this.buttonClick_Click);
             // 
+            // buttonClose
+            // 
+            this.buttonClose.Location = new System.Drawing.Point(292, 286);
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.TabIndex = 2;
+            this.buttonClose.Text = "Cerrar";
+            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(379, 321);
+            this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.buttonClick);
             this.Controls.Add(this.labelHello);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormPrincipal";
             this.Text = "Interfaz principal";
             this.ResumeLayout(false);
@@ -74,6 +86,7 @@
 
         private System.Windows.Forms.Label labelHello;
         private System.Windows.Forms.Button buttonClick;
+        private System.Windows.Forms.Button buttonClose;
     }
 }
 

@@ -29,5 +29,12 @@ namespace program_2
             // Crea un cuadro con mensaje tipo dialog
             MessageBox.Show("Cuadro con mensaje");
         }
+
+        private void buttonClose_Click(object sender, EventArgs e)
+        {
+            /* Metodo cerrar */
+            // Llamada al metodo cerrar del objeto, terminando la ejecución
+            this.Close();
+        }
     }
 }

@@ -47,6 +47,7 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 		* Button
 			* Propiedades
 			* MessajeBox
+			* Metodo cerrar
 3. program_3 (Windows Presentations Foundations)
 	* MainWindow.xaml
 		* Button
