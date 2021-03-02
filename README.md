@@ -27,6 +27,7 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 		* Comentarios
 		* Main
 		* Variables
+		* Obtener tipo de dato de una variable
 		* Máximos valores númericos
 		* Escritura en consola y lectura de teclado
 		* Operaciones númericas

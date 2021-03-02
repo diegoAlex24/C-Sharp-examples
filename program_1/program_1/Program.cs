@@ -38,6 +38,14 @@ namespace program_1 {
             // Booleano
             bool voto = true;
 
+            /* Obtener tipo de dato de una variable */
+            var unDato = "Soy una cadena";
+            Console.WriteLine("El tipo de dato de var es: {0}", unDato.GetTypeCode());
+            Console.WriteLine("El tipo de dato de d es: {0}", d.GetTypeCode());
+            Console.WriteLine("El tipo de dato de e es: {0}", e.GetTypeCode());
+            Console.WriteLine("El tipo de dato de cadena es: {0}", cadena.GetTypeCode());
+            Console.WriteLine("El tipo de dato de voto es: {0}", voto.GetTypeCode());
+
             /* Máximos valores númericos */
             a = int.MaxValue; // 2147483647
             b = float.MaxValue; // 3.402823E+38
