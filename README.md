@@ -29,11 +29,14 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 		* Variables
 		* Obtener tipo de dato de una variable
 		* Máximos valores númericos
+		* Mínimos valores númericos
 		* Escritura en consola y lectura de teclado
 		* Operaciones númericas
-		* Clases y objetos
 		* Ciclo For
 		* Obtener argumentos de la aplicación
+		* Funciones
+			* Definicion de función
+		* Clases y objetos
 	* Clase.cs
 		* Atributos
 		* Constructor

@@ -24,11 +24,15 @@ namespace program_1 {
             Console.WriteLine("Hola mundo");
 
             /* Variables */
-            // Entero
+            // Entero 32 bits
             int a = 800;
+            // Long 64 bits
+            long entero64;
+            // Decimal 128 bits se pone una M al final del número
+            decimal numero128;
             // Flotante
             float b = 5.46f;
-            // Flotante doble precision
+            // Flotante doble precision 64 bits 
             double c = 10.202;
             // Caracter
             char d = 'D';
@@ -51,16 +55,25 @@ namespace program_1 {
             b = float.MaxValue; // 3.402823E+38
             c = double.MaxValue; // 1.79769313486232E+308
             // Entero largo
-            long maximoLong = long.MaxValue; // 9223372036854775807
+            entero64= long.MaxValue; // 9223372036854775807
             // Gran entero
-            decimal maximoDecimal = decimal.MaxValue; // 79228162514264337593543950335
+            numero128 = decimal.MaxValue; // 79228162514264337593543950335
 
+            Console.WriteLine("Valores máximos");
             Console.WriteLine(a);
+            Console.WriteLine(entero64);
             Console.WriteLine(b);
             Console.WriteLine(c);
-            Console.WriteLine(maximoLong);
-            Console.WriteLine(maximoDecimal);
-            
+            Console.WriteLine(numero128);
+
+            /* Mínimos valores númericos */
+            Console.WriteLine("Valores mínimos");
+            Console.WriteLine(int.MinValue);
+            Console.WriteLine(long.MinValue);
+            Console.WriteLine(float.MinValue);
+            Console.WriteLine(double.MinValue);
+            Console.WriteLine(Decimal.MinValue);
+
 
             /* Escritura en consola y lectura de teclado */
             // Escribe en consola sin salto de linea
@@ -93,14 +106,6 @@ namespace program_1 {
             Console.WriteLine("División = {0}", a / a);
             Console.WriteLine("Resto = {0}", a % a);
 
-            /* Clases y objetos */
-            // Se crea un objeto tambien llamada instancia de la clase Clase ubicado en Clase.cs
-            Clase objeto = new Clase(25);
-            // Inicializa el setter
-            objeto.SetNombre(nombre);
-            // Llamada del objeto a su metodo.
-            objeto.Saludo();
-
             /* Ciclo For */
             // Una forma de recorrer un arreglo de variables del mismo tipo es usar un ciclo
             // El ciclo for primero declara una variable que itera sobre el arreglo los cuales todos comienzan desde el 0
@@ -120,10 +125,29 @@ namespace program_1 {
             // La siguiente línea usara la función join para unir todos los agumentos de la línea de comandos uniendolos por el primer argumentos que en este caso es " - " resultando una cadena
             Console.WriteLine(string.Join(" - ", argumentos));
 
+            /* Funciones */
+            // Llamada a la función
+            funcionPrueba();
 
+            /* Clases y objetos */
+            // Se crea un objeto tambien llamada instancia de la clase Clase ubicado en Clase.cs
+            Clase objeto = new Clase(26);
+            // Inicializa el setter
+            objeto.SetNombre(nombre);
+            // Llamada del objeto a su metodo.
+            objeto.Saludo();
 
             // Espera una tecla
             Console.ReadKey();
+        }
+
+        /* Definicion de función */
+        private static void funcionPrueba() {
+            // Definición de variable local solo para la función
+            string cadenaLocal;
+            Console.WriteLine("Escribe algo para la función");
+            cadenaLocal = Console.ReadLine();
+            Console.WriteLine("La cadena es {0}", cadenaLocal);
         }
     }
 }
