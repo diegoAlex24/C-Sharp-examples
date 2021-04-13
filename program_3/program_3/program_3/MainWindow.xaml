@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="600">
     <Grid>
-        <!--Se crea un botón y para usar su funcionalidad le damos doble clic en el botón -->
-        <Button x:Name="button_example" Content="Botón" HorizontalAlignment="Left" Margin="76, 96, 0, 0" VerticalAlignment="Top" Width="154" Height="73" FontSize="20" Click="button_example_Click"></Button>
+        <!-- Se crea un botón y para usar su funcionalidad le damos doble clic en el botón -->
+        <Button x:Name="button_example" Content="Botón" HorizontalAlignment="Left" Margin="52,135,0,0" VerticalAlignment="Top" Width="154" Height="73" FontSize="20" Click="button_example_Click"></Button>
+        <!-- Se crea una imagen -->
+        <Image HorizontalAlignment="Left" Height="220" Margin="319,64,0,0" VerticalAlignment="Top" Width="220" Source="c-sharp-logo.png"/>
     </Grid>
 </Window>

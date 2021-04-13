@@ -56,6 +56,7 @@ Todos los códigos son recopilatorios de diversos tutoriales, tareas y ejemplos 
 	* MainWindow.xaml
 		* Button
 			* Message Box
+		* Image
 
 [Repositorio](https://github.com/diegoAlex24/C-Sharp-examples).
 
