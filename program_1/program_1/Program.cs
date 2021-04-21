@@ -96,7 +96,7 @@ namespace program_1 {
             string nombre = Console.ReadLine();
             // Imprime una variable con cadena
             Console.WriteLine("Hola " + nombre);
-            // Otro formato de variable
+            // Otro formato de variable por medio de subíndices incrementales
             Console.WriteLine("{0} \n {1}", "Que tal tu día", nombre);
 
             /* Operaciones númericas */
