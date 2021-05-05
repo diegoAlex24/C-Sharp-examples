@@ -13,10 +13,12 @@ using System.Threading.Tasks;
 // Para todos los nombres identificadores no usar palabras reservadas ("if, else, class, int, long, double, etc") 
 // Proyecto
 // El namespace puede usarse como una libreria en otro proyecto con using
+// Indica una colección de clases
 namespace program_1 {
     // Clase
     class Program { // Orientado a objetos
         /* Main */
+        // El main es el punto de entrada para ejecutar los programas en C#
         // Metodo static = global no necesita instancias
         // Para pasar argumentos al main hay que dar clic derecho en nuestro proyecto -> propiedades -> depurar y escribirlos en la linea de comandos separados por espacios.
         static void Main(string[] args) {
@@ -137,7 +139,7 @@ namespace program_1 {
             // Llamada del objeto a su metodo.
             objeto.Saludo();
 
-            // Espera una tecla
+            // Espera una tecla para que no se cierre la consola al terminar
             Console.ReadKey();
         }
 
